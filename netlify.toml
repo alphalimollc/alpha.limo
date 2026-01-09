@@ -1,3 +1,7 @@
+[build]
+command = "npm run build"
+publish = ".next" # Or "out" for static export
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
