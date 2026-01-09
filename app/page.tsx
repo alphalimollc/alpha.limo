@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Alpha() {
   return (
     <div className="Alpha">
       <header className="Alpha-header">
-        <img src="/logo.svg" className="Alpha-logo" alt="logo" />
+        <Image src="/logo.svg" className="Alpha-logo" alt="logo" width={350} height={350} />
         {}
         <p>
           Alpha Limo
